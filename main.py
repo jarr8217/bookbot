@@ -12,8 +12,8 @@ def count_words(book_title):
 def main():
     book_text = get_book_text("frankenstein")
 
-    word_count = count_words("frankenstein")
-    print(f"Word count: {word_count}")
+    num_words = count_words("frankenstein")
+    print(f"{num_words} words found in the document")
 
 
 if __name__ == "__main__":
