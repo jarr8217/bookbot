@@ -1,4 +1,4 @@
-from main import get_book_text
+from utils import get_book_text
 
 
 def get_num_words(book_title):
