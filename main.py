@@ -4,9 +4,7 @@ def get_book_text(book_title):
 
 
 def main():
-    book_title = input(
-        "Enter the book title (e.g., 'frankenstein'): ").strip().lower()
-    book_text = get_book_text(book_title)
+    book_text = get_book_text("frankenstein")
     print(book_text)
 
 
