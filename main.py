@@ -8,7 +8,6 @@ def get_book_text(book_title):
 
 def main():
     book_text = get_book_text("frankenstein")
-
     num_words = get_num_words("frankenstein")
     print(f"{num_words} words found in the document")
 
