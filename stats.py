@@ -15,3 +15,15 @@ def count_characters(text):
         else:
             char_counts[char] = 1
     return char_counts
+
+
+def get_sorted_char_list(char_counts):
+    char_list = []
+    for char, count in char_counts.items():
+        if char.isalpha():
+            char_list.append({"char": char, "num": count})
+
+    def get_num(d):
+        return d["num"]
+    char_list.sort(key=get_num, reverse=True)
+    return char_list
